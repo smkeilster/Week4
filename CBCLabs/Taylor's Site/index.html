@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Plant Database</title>
+	<link rel="stylesheet" href="CSS/Taylor.css">
+  <script src="JS/Taylor.js"></script>
+</head>
+
+<body class=page>
+	<h1 class=header> Plant Database</h1>
+		<div class="navbar" id="navigation">
+			<a onclick="document.getElementById('id01').style.display='block'"> Sign Up</a>
+			<a href="HTML/PlantAbout.html">About</a>
+			<a class="active" href="index.html">Home</a>
+		</div>
+		<div id="id01" class="modal">
+		  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php">
+		    <div class="container">
+		      <h1>Sign Up</h1>
+		      <p>Please fill in this form to create an account.</p>
+		      <hr>
+		      <label for="email"><b>Email</b></label>
+		      <input type="text" placeholder="Enter Email" name="email" required>
+
+		      <label for="psw"><b>Password</b></label>
+		      <input type="password" placeholder="Enter Password" name="psw" required>
+
+		      <label for="psw-repeat"><b>Repeat Password</b></label>
+		      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+		      <label>
+		        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+		      </label>
+
+		      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+		      <div class="clearfix">
+		        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		        <button type="submit" class="signupbtn">Sign Up</button>
+		      </div>
+		    </div>
+		  </form>
+		</div>
+
+
+	<br>
+	<section>
+		<a id="sectionsucculents">
+			<div class=plantportfolio>
+			  <img class="image" id="1" src="https://cdn.shopify.com/s/files/1/1124/9666/products/echeveria-mexican-snowball_480x.jpg?v=1500780172">
+			  <p>
+			    <b>Name</b><br>
+			    Mexican Snowball<br>
+			    <br>
+			    <b>Origin</b><br>
+			    Native to the semi-desert habitats in Mexico.<br>
+			    <br>
+			    <b>How to Grow and Care</b><br>
+			    Mexican Snowball is certainly one of the most versatile neat, low-growing ground cover succulents. It is easy to care for and is a good starting point for beginning gardeners. It is considered to be drought tolerant but it does best with occasional watering in a well drained soil. This is typical of many Echeveria. They can be planted in full sun in coastal areas and they like some light shade when planted inland. Elsewhere grow as a houseplant in winter in a cool, bright window and keep dry until spring.<br>
+			    <br>
+			    <b>Watering</b><br>
+			    Water moderately when in growth; not at all when dormant.<br>
+			    <br>
+
+			  </p>
+
+			</div>
+			<br>
+			<div class=plantportfolio>
+			  <img class="image" id="2"src="https://worldofsucculents.com/wp-content/uploads/2017/08/Haworthia-venosa2.jpg">
+			  <p>
+			    <b>Name</b><br>
+			    Haworthia <br>
+			    <br>
+			    <b>Origin</b><br>
+			    Native to Southern Africa.<br>
+			    <br>
+			    <b>How to Grow and Care</b><br>
+			    Bright light, but not direct sunlight. Warmer summers but cool in the winter (down to 50 degrees F).<br>
+			    <br>
+			    <b>Watering</b><br>
+			    Water evenly and generously in the summer, letting the soil media dry out between waterings.<br>
+			    <br>
+
+			  </p>
+			</div>
+			<br>
+			<div class=plantportfolio>
+			  <img class="image" id="3"src="http://4.bp.blogspot.com/-oqf1X7h6ziU/UNoa3YYiyoI/AAAAAAAABWE/zk6Ohb05iY8/s1600/sedum-morganianum-300.jpg">
+			  <p>
+			    <b>Name</b><br>
+			    Burro’s Tail <br>
+			    <br>
+			    <b>Origin</b><br>
+			    Native to Southern Mexico and Honduras.<br>
+			    <br>
+			    <b>How to Grow and Care</b><br>
+			    Sedum morganianum likes bright shade or partial sun. Like any other succulent, this one needs good drainage.<br>
+			    <br>
+			    <b>Watering</b><br>
+			    All those leaves store water so be sure not to overwater it. It will rot out if you do. Well established, around 5 years old, require a thorough watering every 10-14 days.<br>
+			    <br>
+
+			  </p>
+			</div>
+		</a>
+	</section>
+<br>
+	<section>
+		<a id="sectionflowers">
+			<div class=plantportfolio>
+		  <img class="image" id="4"src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/wisteria.jpg?itok=sUeAWd-h">
+		  <p>
+		    <b>Name</b><br>
+		    Wisteria <br>
+		    <br>
+		    <b>Origin</b><br>
+		    Native to China, Korea and Japan.<br>
+		    <br>
+		    <b>How to Grow and Care</b><br>
+		    Wisteria likes full sun. Plant in the spring or fall. Wisteria will grow in most soils.<br>
+		    <br>
+		    <b>Watering</b><br>
+		    During the first year wisterias will benefit from regular watering while the roots establish.<br>
+		    <br>
+
+		  </p>
+			</div>
+			<br>
+			<div class=plantportfolio>
+		  <img class="image" id="5"src="https://static1.squarespace.com/static/5755f26137013b8af2444eed/t/59380aee03596e4aa8327948/1496845123369/where+to+find+peonies+in+Paris">
+		  <p>
+		    <b>Name</b><br>
+		    Peonies <br>
+		    <br>
+		    <b>Origin</b><br>
+		    Native to Asia, Europe and Western North America.<br>
+		    <br>
+		    <b>How to Grow and Care</b><br>
+		    Peonies likes full or part sun. Plant in the fall, late September and October. Peonies grow best in humus-rich soil that drains well.<br>
+		    <br>
+		    <b>Watering</b><br>
+		    During the first year peonies will benefit from regular watering while the roots establish.<br>
+		    <br>
+
+		  </p>
+			</div>
+			<br>
+			<div class=plantportfolio>
+		  <img class="image" id="6"src="http://www.trbimg.com/img-58c1d636/turbine/mc-cherry-blossoms-washington-damage-travel-20170309">
+		  <p>
+		    <b>Name</b><br>
+		    Cherry Blossom <br>
+		    <br>
+		    <b>Origin</b><br>
+		    Native to China and Japan.<br>
+		    <br>
+		    <b>How to Grow and Care</b><br>
+		    Cherry blossom trees like full sun to partial shade. Plant in the spring after the last frost. Cherry trees can adapt to several soil types, but do better in acidic environments.<br>
+		    <br>
+		    <b>Watering</b><br>
+		    During the first year cherry blosoms will benefit from regular watering, but make sure the soil drains well. After the tree is established only water during droughts.<br>
+		    <br>
+
+		  </p>
+			</div>
+		</a>
+	</section>
+</body>
+</html>

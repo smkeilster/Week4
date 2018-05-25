@@ -1,0 +1,23 @@
+/* Grid Mobile Styles */
+@media (max-width: 450px)
+{
+  .grid
+  {
+    flex-direction:column;
+  }
+  .gridItem
+  {
+    width:90%;
+    margin-left: 20px;
+    align-items: center;
+    
+
+  }
+  .overlay a {font-size: 20px}
+  .overlay .closebtn
+   {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  } 
+}

@@ -1,0 +1,35 @@
+/* NavBar Mobile Styles */
+@media(max-width:425px) 
+{
+  
+  .SiteName
+  {
+    width:90%;
+  }
+  .Nav
+  {
+    display:none;
+  }
+
+    .MenuIcon  
+  {
+    display:flex;
+    margin-right:15px;
+    font-size:1.5em;
+  }
+  .NavMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .NavButton
+  {
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #CCCCCC;
+    width: 90%;
+    border-radius: 5px;
+  }
+}

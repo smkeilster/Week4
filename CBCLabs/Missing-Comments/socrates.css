@@ -1,0 +1,42 @@
+/*formatting for top div around "The Lost Library of Socrates" */
+#top{
+    border: solid black;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+}
+/* formatting for player name and guesses*/
+#header{
+    border: solid black;
+    padding: 1px;
+    margin: 1px;
+    font-size: 24px;
+    text-align: center;
+}
+/* formatting for the missing word */
+#board{
+    border: solid black;
+    padding: 1px;
+    margin: 1px;
+    font-size: 48px;
+    text-align: center;
+}
+/* formatting for area requesting guesses */
+#guess{
+    border: solid black;
+    padding: 1px;
+    margin: 1px;
+    font-size: 24px;
+}
+/* formatting for div containing special options*/
+#specials{
+    border: solid black;
+    padding: 1px;
+    margin: 1px;
+    font-size: 24px;
+}
+/*formatting for the buttons within the specials div */
+.button{
+    background-color: darkkhaki;
+    font-size: 18px;
+}
